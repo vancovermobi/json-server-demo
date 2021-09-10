@@ -31,15 +31,22 @@ POST {{baseUrl}}/{{resourceName}}
 Content-Type: application/json
 
 {
-    "name": "Laptop 123"
+    "categoryId": "3884e5a4-3f5a-4a29-b40e-77689da768d6",
+    "name": "Fantastic Cotton Table",
+    "color": "maroon",
+    "price": 285,
+    "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    "thumbnailUrl": "http://placeimg.com/400/400"  
 }
 ###============
 # @name update
-PATCH  {{baseUrl}}/{{resourceName}}/1CU-LRI
+PATCH  {{baseUrl}}/{{resourceName}}/ZUj_uLT
 Content-Type: application/json
 
 {
-    "name": "Laptop New"
+    "name": "Update Fantastic Cotton Table",
+    "color": "red",
+    "price": 885
 }
 ###============
 # @name remove
